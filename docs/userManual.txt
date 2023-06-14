@@ -1,0 +1,89 @@
+How to use Task Tracker GUI:
+
+Operation 1: List all tasks
+
+Whenever the user starts the application, they will be first greated to the main page, and immediately
+notice three buttons in a row at the very top, following by a container in the center, and a
+button on the very bottom. The very first button at the top in the row, is coloured blue by default whenever
+the user first starts the program and is titled "All." Here the user will see all of their tasks 
+listed in the container in the center. This container in the center only holds information regarding
+all of their tasks whenever the user clicks the "All" button only.
+
+By default, whenever the user launches the program they will always 
+be directed to this page that holds all the tasks in the container in the center under the "All" button.
+Note: If this is the very first time the user is running the program, then they will see a message
+in the container that shows “No tasks to show.” All tasks are listed according to the tasks that have
+the earliest date.
+
+
+Operation 2: Add a new task
+
+The button on the very bottom of the window that is centered and is titled "Add Task" allows us to add
+new tasks to our application. This button is always present on the bottom of the screen.
+Clicking on this button, opens up another smaller window that acts like a form to collect the necessary
+information to post that new task. On that small window, the user will see two textfields, each in their own
+row. Starting with the first row, the user will see the Name textfield. In the second row, the user will see
+the Notes textfield. The user is expected to at least fill out the Name textfield, in order to add a 
+new task. Otherwise, an error will pop up prompting the user to do so.
+
+Under those two rows There is a Due date textfield which can only be modified by clicking on the
+calendar img next to it. By clicking on the calendar img, a tiny popup that mimics a calendar is shown,
+allowing the user to interactively select the month, year and day of their choice. By clicking on the 
+numbers that are inside rows inside of a container under their respective weeks, allows the user to select
+the day. At the very top center clicking on the month and year, allows the users to change them respectively.
+Also, the single arrow allows to change the month, while the double arrows change the year.
+
+Next to the calendar, is a drop down combo box. Inside here, the user will be able to select the time of
+their choice in a 24 hour format, with the minutes progressing in 15 minute intervals. The user will be able
+to edit the time as well inside the combo box, provided that the time fits accordingly under 24 hour format.
+The user cannot also leave the due date blank, otherwise another error will pop up prompting the user to do
+so.
+
+
+Operation 3: Remove a task
+
+To remove a task from the tasks listed in the center container that is present under all buttons in the top
+row when clicking. The user must click on the "Remove Task" button, to remove that task they wish to be
+removed, accordingly. This will remove the task from all pages that contain that task in center container.
+
+
+Operation 4: Mark a task as completed/incomplete
+
+To mark a task as completed/incompleted, in the "All" task page in the center container, there is a 
+checkbox with a word beside called "Completed." This is checkbox and word is only present in this center
+container under the "All" task page. The other pages will not contain them. Clicking on the checkbox
+marks the task as completed, indicated by a checkmark. This will prevent the task from showing up in the
+other pages' center container. If the checkbox is unchecked, then it will show up in the other pages'
+center container, depending if the task is overdue or upcoming. By default, whenever a user adds a new task,
+the task is always incompleted, with no checkmark.
+
+
+Operation 5: List overdue incomplete tasks
+
+By clicking on the button titled "Overdue" in the top row, it will show all the tasks that are overdue based 
+off of the user's current time. The center container looks exactly the same as the All task page except
+that the checkbox and the word completed is missing from the task in the center container. If there are no
+tasks then the center container will show “No tasks to show.” If there are no tasks that are overdue
+then the center container will show "No overdue incomplete tasks to show." All tasks are listed 
+according to the tasks that have the earliest date.
+
+
+Operation 6: List upcoming incomplete tasks
+
+By clicking on the button titled "Upcoming" in the top row, it will show all the tasks that are upcoming 
+based off of the user's current time. The center container looks exactly the same as the All task page except
+that the checkbox and the word completed is missing from the task in the center container. If there are no
+tasks then the center container will show “No tasks to show.” If there are no tasks that are upcoming
+then the center container will show "No upcoming incomplete tasks to show." All tasks are listed 
+according to the tasks that have the earliest date.
+
+
+
+Operation 7: Exit
+To exit out of the program, the user clicks on the X button on the top right corner of the program. 
+The X button maybe on the left side corner of the program if you are not a Windows user. 
+When the program exits, it will save whatever information you recently last had in each of the center
+containers, showing your tasks, and whether they were completed or not.
+
+
+
